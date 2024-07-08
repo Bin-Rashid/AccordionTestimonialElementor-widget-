@@ -1,0 +1,70 @@
+@media (max-width:768px) {
+    .accordion-header,
+    .accordion-body {
+        padding: 20px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .accordion-body .main_row {
+        flex-direction: column;
+    }
+
+    .accordion-body .column {
+        width: 100%;
+    }
+
+    .accordion-body .main_row img {
+        max-width: 100%;
+    }
+
+    .accordion-body .client-image-body {
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        top: -25px;
+        left: calc(50% - 25px); /* Center the image horizontally */
+    }
+
+    .accordion-body .main_row {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px; /* Add some space between stacked columns */
+    }
+
+    .accordion-body .additional_info_row h2 {
+        font-size: 20px; /* Reduce font size for smaller screens */
+    }
+
+    .accordion-body .button_left {
+        font-size: 16px; /* Adjust font size */
+        padding: 10px 14px; /* Adjust padding */
+        margin-top: 20px; /* Adjust margin */
+    }
+
+    .accordion-body .button_right {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .span.button_icon {
+        width: 12px; /* Adjust icon size */
+    }
+
+    .column {
+        margin-right: 0; /* Remove margin */
+    }
+
+    .header-left .number {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .header-left span {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .accordion-header .year {
+        font-size: 24px; /* Adjust font size */
+    }
+}
